@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  gap: 15px;
+  text-align: left;
+}
+.button {
+  border: 1px solid black;
+  margin-bottom: 30px;
+
+  &:hover {
+    border: 1px solid black;
+  }
+  &:focus {
+    border: 2px solid black;
+  }
+}
